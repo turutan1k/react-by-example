@@ -1,20 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
 );
-// setInterval(
-//     () =>
 root.render(
-    //             // <p>Hello World</p>
-    //             <div>the time is {new Date().toLocaleTimeString()}</div>
-
-    //         ),
-    //     1000
     <React.StrictMode>
         <App />
     </React.StrictMode>
