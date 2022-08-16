@@ -1,0 +1,27 @@
+.pages {
+    &Wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+    &Header {
+        color: #ffff00;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    &Example {
+        color: #fff;
+        font-size: 14px;
+        padding: 20px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    &Result {
+        color: #fff;
+        font-size: 14px;
+        box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.3);
+        padding: 20px;
+        border-radius: 5px;
+    }
+}
