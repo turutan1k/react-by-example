@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Link, NavLink } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import AboutJSX from '../../Pages/AboutJSX';
 import AdvancedHooks from '../../Pages/AdvancedHooks';
 import BestPractices from '../../Pages/BestPractices';
@@ -9,7 +9,7 @@ import CustomHooks from '../../Pages/CustomHooks';
 import EventsAndForms from '../../Pages/EventsAndForms';
 import FinalWords from '../../Pages/FinalWords';
 import FunctionComponents from '../../Pages/FunctionComponents';
-import GettingStarted from '../../Pages/GettingStarted';
+import GettingStarted from '../../Pages/GettingStarted/GettingStarted';
 import HOC from '../../Pages/HOC';
 import Hooks from '../../Pages/Hooks';
 import Routing from '../../Pages/Routing';
