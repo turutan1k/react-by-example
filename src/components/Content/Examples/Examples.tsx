@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import AboutJSX from '../../Pages/AboutJSX';
+import AboutJSX from '../../Pages/AboutJSX/AboutJSX';
 import AdvancedHooks from '../../Pages/AdvancedHooks';
 import BestPractices from '../../Pages/BestPractices';
 import ClassComponents from '../../Pages/ClassComponents';

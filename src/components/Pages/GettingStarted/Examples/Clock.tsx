@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import s from '../Pages.module.scss';
+import s from '../../Pages.module.scss';
+
 
 export default function Clock() {
     const getTime = () => `the time is ${new Date().toLocaleTimeString()}`;
