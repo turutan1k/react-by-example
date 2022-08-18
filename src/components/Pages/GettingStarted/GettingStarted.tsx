@@ -8,10 +8,10 @@ export default function GettingStarted() {
         document.title = 'Getting Started | React by Example';
     }, []);
     return (
-        <div>
+        <>
             <HelloWorld />
             <CurrentTime />
             <Clock />
-        </div>
+        </>
     );
 }
