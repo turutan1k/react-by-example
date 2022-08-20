@@ -11,7 +11,7 @@ import FinalWords from '../../Pages/FinalWords';
 import FunctionComponents from '../../Pages/FunctionComponents/FunctionComponents';
 import GettingStarted from '../../Pages/GettingStarted/GettingStarted';
 import HOC from '../../Pages/HOC';
-import Hooks from '../../Pages/Hooks';
+import Hooks from '../../Pages/Hooks/Hooks';
 import Routing from '../../Pages/Routing';
 import Styling from '../../Pages/Styling';
 import Testing from '../../Pages/Testing';
