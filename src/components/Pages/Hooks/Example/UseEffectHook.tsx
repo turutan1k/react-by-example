@@ -91,23 +91,6 @@ export default function UseStateAndUseRefHooks() {
                 <div className="clear" />
                 <span>{`};`}</span>
                 <div className="clear" />
-                <span>{``}</span>
-                <div className="clear" />
-                <span>{``}</span>
-                <div className="clear" />
-                <span>{``}</span>
-                <div className="clear" />
-                <span>{``}</span>
-                <div className="clear" />
-                <span>{``}</span>
-                <div className="clear" />
-                <span>{``}</span>
-                <div className="clear" />
-                <span>{``}</span>
-                <div className="clear" />
-                <span>{``}</span>
-                <div className="clear" />
-                <span>{``}</span>
             </code>
             <div className={s.pagesResult}>
                 <ToggleLocale />
