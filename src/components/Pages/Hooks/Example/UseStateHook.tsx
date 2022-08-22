@@ -2,7 +2,7 @@ import React from 'react';
 import s from '../../Pages.module.scss';
 import { Counter } from './ExecutionResult/Counter';
 
-export default function UseStateHook() {
+export default function AUseStateHook() {
     return (
         <div className={s.pagesWrapper}>
             <h2 className={s.pagesHeader}>Example 1 (UseState hook)</h2>

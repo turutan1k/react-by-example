@@ -13,7 +13,7 @@ import GettingStarted from '../../Pages/GettingStarted/GettingStarted';
 import HOC from '../../Pages/HOC';
 import Hooks from '../../Pages/Hooks/Hooks';
 import Routing from '../../Pages/Routing';
-import Styling from '../../Pages/Styling';
+import Styling from '../../Pages/Styling/Styling';
 import Testing from '../../Pages/Testing';
 import s from './Examples.module.scss';
 export default function Examples() {
