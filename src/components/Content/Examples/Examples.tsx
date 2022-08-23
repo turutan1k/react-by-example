@@ -6,7 +6,7 @@ import BestPractices from '../../Pages/BestPractices';
 import ClassComponents from '../../Pages/ClassComponents';
 import Context from '../../Pages/Context';
 import CustomHooks from '../../Pages/CustomHooks';
-import EventsAndForms from '../../Pages/EventsAndForms';
+import EventsAndForms from '../../Pages/EventsAndForms/EventsAndForms';
 import FinalWords from '../../Pages/FinalWords';
 import FunctionComponents from '../../Pages/FunctionComponents/FunctionComponents';
 import GettingStarted from '../../Pages/GettingStarted/GettingStarted';
@@ -16,10 +16,12 @@ import Routing from '../../Pages/Routing';
 import Styling from '../../Pages/Styling/Styling';
 import Testing from '../../Pages/Testing';
 import s from './Examples.module.scss';
+import Home from './../../Pages/Home';
 export default function Examples() {
     return (
         <div className={s.ExamplesWrapper}>
             <Routes>
+                <Route path="/*" element={<Home />} />
                 <Route path="/getting-started" element={<GettingStarted />} />
                 <Route path="/about-jsx" element={<AboutJSX />} />
                 <Route

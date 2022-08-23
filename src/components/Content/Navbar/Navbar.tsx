@@ -4,7 +4,11 @@ import s from './Navbar.module.scss';
 export default function Navbar() {
     return (
         <div className={s.AppNavbar}>
-            <h2 className={s.AppNavbarName}>RBE CONTENT:</h2>
+            <h2>
+                <NavLink className={s.AppNavbarName} to="/">
+                    RBE CONTENT:
+                </NavLink>
+            </h2>
             <nav className={s.AppNavbarMenu}>
                 <ul className={s.AppNavbarList}>
                     <NavLink
