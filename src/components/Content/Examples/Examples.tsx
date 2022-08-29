@@ -14,7 +14,7 @@ import HOC from '../../Pages/HOC';
 import Hooks from '../../Pages/Hooks/Hooks';
 import Routing from '../../Pages/Routing';
 import Styling from '../../Pages/Styling/Styling';
-import Testing from '../../Pages/Testing';
+import Testing from '../../Pages/Testing/Testing';
 import s from './Examples.module.scss';
 import Home from './../../Pages/Home';
 export default function Examples() {
