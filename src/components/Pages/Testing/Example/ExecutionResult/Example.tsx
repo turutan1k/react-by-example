@@ -1,15 +1,12 @@
-import React, { FC, useState, useEffect } from 'react';
+import React, { FC, useEffect, useState } from 'react';
 import classes from './example.module.scss';
 import { TenorAPI } from './tenor-api';
-
 export interface GifFinderProps {
     onFound?(url: string): void;
 }
-
 export const GifFinder: FC<GifFinderProps> = ({ onFound }) => {
     const [query, setQuery] = useState('');
     const [results, setResults] = useState<string[] | null>(null);
-
     useEffect(() => {
         let shouldUpdate = true;
         if (query) {
@@ -21,7 +18,6 @@ export const GifFinder: FC<GifFinderProps> = ({ onFound }) => {
             shouldUpdate = false;
         };
     }, [query]);
-
     return (
         <section>
             <label>
@@ -54,7 +50,6 @@ export const GifFinder: FC<GifFinderProps> = ({ onFound }) => {
         </section>
     );
 };
-
 export const Example: FC = () => {
     const [gif, setGif] = useState<string | null>(null);
     return gif ? (
@@ -62,10 +57,11 @@ export const Example: FC = () => {
             <img src={gif} alt="gif" />
             <p>found gif</p>
             <button type="button" onClick={() => setGif(null)}>
-                find new gif&nbsp;&nbsp;&nbsp;
+                find new gif
             </button>
         </div>
     ) : (
         <GifFinder onFound={setGif} />
     );
 };
+export default <Example />;

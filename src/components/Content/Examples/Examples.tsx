@@ -4,7 +4,7 @@ import AboutJSX from '../../Pages/AboutJSX/AboutJSX';
 import AdvancedHooks from '../../Pages/AdvancedHooks';
 import BestPractices from '../../Pages/BestPractices';
 import ClassComponents from '../../Pages/ClassComponents';
-import Context from '../../Pages/Context';
+import Context from '../../Pages/Context/Context';
 import CustomHooks from '../../Pages/CustomHooks';
 import EventsAndForms from '../../Pages/EventsAndForms/EventsAndForms';
 import FinalWords from '../../Pages/FinalWords';
