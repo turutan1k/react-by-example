@@ -10,6 +10,12 @@
         font-size: 24px;
         margin-bottom: 10px;
     }
+    &HeaderSub {
+        color: rgba(0, 255, 0, 0.4);
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-shadow: 0px 0px 10px #000;
+    }
     &Example {
         color: #fff;
         font-size: 14px;
@@ -31,5 +37,3 @@
     padding: 0.5em;
     border: 2px solid transparent;
 }
-
-

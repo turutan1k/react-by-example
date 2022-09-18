@@ -6,6 +6,14 @@ export default function UseMemoComponent() {
     return (
         <div className={s.pagesWrapper}>
             <h2 className={s.pagesHeader}>Example 1 (UseMemo)</h2>
+            <h2 className={s.pagesHeaderSub}>
+                Мемоизация - сохраняет резултат выполнения функции, чтобы в
+                последующем выполнять ее тогда, когда это необходимо
+            </h2>
+            <h2 className={s.pagesHeaderSub}>
+                useCallback используется для мемоизации коллбеков в компонентах,
+                а useMemo используется для мемоизации значений
+            </h2>
             <code className={s.pagesExample}>
                 <span>{`import React, { FC, useMemo } from 'react'`}</span>
                 <div className="clear20" />

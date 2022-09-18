@@ -5,7 +5,7 @@ import AdvancedHooks from '../../Pages/AdvancedHooks/AdvancedHooks';
 import BestPractices from '../../Pages/BestPractices';
 import ClassComponents from '../../Pages/ClassComponents';
 import Context from '../../Pages/Context/Context';
-import CustomHooks from '../../Pages/CustomHooks';
+import CustomHooks from '../../Pages/CustomHooks/CustomHooks';
 import EventsAndForms from '../../Pages/EventsAndForms/EventsAndForms';
 import FinalWords from '../../Pages/FinalWords';
 import FunctionComponents from '../../Pages/FunctionComponents/FunctionComponents';
