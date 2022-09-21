@@ -5,9 +5,6 @@ import Form from './Example/Form';
 import Formik from './Example/Formik';
 
 export default function EventsAndForms() {
-    useEffect(() => {
-        document.title = 'Events and Forms | React by example';
-    }, []);
     return (
         <>
             <EventInput />

@@ -6,9 +6,6 @@ import Repeat from './Examples/Repeat';
 import Simple from './Examples/Simple';
 import SpreadProps from './Examples/SpreadProps';
 export default function AboutJSX() {
-    useEffect(() => {
-        document.title = 'About JSX | React by Example';
-    }, []);
     return (
         <>
             <Simple />

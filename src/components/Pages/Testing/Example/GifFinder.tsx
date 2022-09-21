@@ -3,9 +3,6 @@ import s from '../../Pages.module.scss';
 import { Example } from './ExecutionResult/Example';
 
 export default function GifFinder() {
-    useEffect(() => {
-        document.title = 'Testing | React by Example';
-    });
     return (
         <div className={s.pagesWrapper}>
             <h2 className={s.pagesHeader}>Example 1 (GifFinder)</h2>

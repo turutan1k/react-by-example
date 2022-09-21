@@ -5,9 +5,6 @@ import CSSinJS from './Example/CSSinJS';
 import CSSModules from './Example/CSSModules';
 
 export default function Styling() {
-    useEffect(() => {
-        document.title = 'Styling | React by example';
-    }, []);
     return (
         <>
             <GlobalCSS />

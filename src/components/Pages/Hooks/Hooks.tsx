@@ -5,9 +5,6 @@ import UseEffectHook from './Example/UseEffectHook';
 import UseStateAndUseRefHooks from './Example/UseStateAndUseRefHooks';
 
 export default function Hooks() {
-    useEffect(() => {
-        document.title = 'Hooks | React by example';
-    }, []);
     return (
         <div>
             <UseStateHook />

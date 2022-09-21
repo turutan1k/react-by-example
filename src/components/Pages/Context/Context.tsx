@@ -4,9 +4,6 @@ import How from './Example/How';
 import DynamicTheme from './Example/DynamicTheme';
 
 export default function Context() {
-    useEffect(() => {
-        document.title = 'Context | React by Example';
-    });
     return (
         <>
             <How />
