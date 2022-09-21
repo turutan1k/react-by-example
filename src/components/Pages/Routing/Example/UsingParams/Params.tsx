@@ -10,7 +10,10 @@ export const Params: FC = () => {
             <Routes>
                 <Route path="" element={<Users />} />
                 <Route path="user/:userId" element={<User />} />
-                <Route path="article/:articleId" element={<Article />} />
+                <Route
+                    path="user/:userId/article/:articleId"
+                    element={<Article />}
+                />
                 <Route path="" element={<Navigate to="" replace />} />
             </Routes>
             <Outlet />
