@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import AboutJSX from '../../Pages/AboutJSX/AboutJSX';
 import AdvancedHooks from '../../Pages/AdvancedHooks/AdvancedHooks';
 import BestPractices from '../../Pages/BestPractices';
-import ClassComponents from '../../Pages/ClassComponents';
+import ClassComponents from '../../Pages/ClassComponents/ClassComponents';
 import Context from '../../Pages/Context/Context';
 import CustomHooks from '../../Pages/CustomHooks/CustomHooks';
 import EventsAndForms from '../../Pages/EventsAndForms/EventsAndForms';
