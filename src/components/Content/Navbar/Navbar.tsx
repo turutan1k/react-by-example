@@ -151,16 +151,6 @@ export default function Navbar() {
                     >
                         Best Practices
                     </NavLink>
-                    <NavLink
-                        className={(navData) =>
-                            navData.isActive
-                                ? `${s.AppNavbarLinkActive}`
-                                : `${s.AppNavbarLink}`
-                        }
-                        to="/final-words"
-                    >
-                        Final Words
-                    </NavLink>
                 </ul>
             </nav>
         </div>
